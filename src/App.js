@@ -9,7 +9,7 @@ import bout from './aboutme';
 function App() {
   return (
     <Router>
-    <div className="app">
+    <div style={{height:'100%'}}>
      <Navbar/>
      <Switch>
      <Route path="/" exact component={home} />
@@ -77,9 +77,9 @@ const home = ()=>(
 </div>
 
       <div className="midfo2">
-        <h4>My phone number:<br/></h4>
+        <h4>My phone number:<br/>
               7007295236<br/>
-              9807451027<br/>
+              9807451027<br/></h4>
       </div>
       <div className="midfo">
       <input type="text" className="youremail" placeholder="your email id"/><br/>
@@ -87,7 +87,7 @@ const home = ()=>(
                 <button>send</button>
       </div>
       <div className="text">
-        <h4>Get in touch with me at -----></h4>
+        <h4>Get in touch with me at -----------></h4>
       <div className="leftfo">
       <ul>
         <li><a href="a"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

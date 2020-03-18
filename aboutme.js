@@ -23,7 +23,7 @@ function bout() {
          </tr>
          <tr>
          <td>Intermediate</td>
-         <td>62.4</td>
+         <td>72.4</td>
          </tr>
        </table>
        <table className="table2">
