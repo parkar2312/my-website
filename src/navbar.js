@@ -13,7 +13,7 @@ function Navbar() {
     <ul className ="navi">
       <Link to='/'><li>HOME</li></Link>
       <Link to='/skillz'> <li>SKILLS</li></Link>
-      <Link to='/aboutme'> <li>ABOUT ME</li></Link>
+      <Link to='/aboutme'> <li>ABOUTME</li></Link>
     </ul>
     
 </div>

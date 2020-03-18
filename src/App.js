@@ -70,10 +70,10 @@ const home = ()=>(
 <div className="footer">
       <div className="rightfo">
         <h4>For letter correspondence <br/>
-        address : <br/>
+             address : <br/>
         5,sampurnanand colony sigra varanasi<br/>
-        uttar pradesh<br/>
-        221010<br/></h4>
+            uttar pradesh<br/>
+                221010<br/></h4>
 </div>
 
       <div className="midfo2">
@@ -87,7 +87,7 @@ const home = ()=>(
                 <button>send</button>
       </div>
       <div className="text">
-        <h4>Get in touch with me at -----------></h4>
+        <h4>>---- Get in touch with me at ----></h4>
       <div className="leftfo">
       <ul>
         <li><a href="a"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

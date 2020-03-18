@@ -28,7 +28,7 @@ function bout() {
        </table>
        <table className="table2">
          <tr>
-           <th>Year</th>
+           <th>College</th>
            <th>Percentage</th>
          </tr>
          <tr>

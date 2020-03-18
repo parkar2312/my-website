@@ -35,7 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1% 10%;
-    display: flex;
+    display:flex;
 
 }
 
@@ -257,28 +257,38 @@ body {
         background-image: url(./images.jpg)
     }
     .addflex{
-        font-size: 1rem;
-        flex-direction: column;
-        align-content: center;
+        font-size: .7rem;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
     }
+    .navi{
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        width: 20%;
+        height: 10%;
+        margin-left: 0%;
+        padding-left: 0%;
+    }
+    
     .friper{
-        margin: 0 0 0;
-        padding: 0 0 0;
+        margin-left: 0%;
+        padding-left: 0%;
         font-size: 1rem;
     }
     .face{
-        margin: 0 0 0;
-        padding: 0%;
-        align-content: left;
+        margin-left: 0%;
+        padding-left: 0%;
     }
     .combo{
         flex-direction: column;
     }
     .container{
-        margin: 0 0 0;
-        padding: 0 0 0;
+        margin-left: 4%;
+        padding-left: 0%;
         flex-direction: column;
-        margin: 25%;
     }
     .footer{
         flex-direction: column;
@@ -289,6 +299,10 @@ body {
     }
     .midfo{
         display: none;
+    }
+    .rightfo{
+        margin-left: 3%;
+        text-align: center;
     }
 }
 
@@ -495,5 +509,10 @@ table-layout: fixed;
     }
     .h3{
         font-size: .8rem;
+    }
+    .edu{
+        display: flex;
+        flex-flow: column nowrap;
+        margin-left: 6%;
     }
 }
