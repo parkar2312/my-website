@@ -8,9 +8,11 @@ function skillz() {
        <h1>----SKILLS----</h1>
          <div className="body1">
              <ul><h2>Basic Skills</h2>
+             <li>javascript</li>
+             <li>react js</li>
+             <li>angular</li>
              <li>H.T.M.L</li>
              <li>css</li>
-             <li>javascript</li>
              <li>c++</li>
              <li>c</li>
              </ul>

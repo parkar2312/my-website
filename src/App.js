@@ -40,12 +40,12 @@ const home = ()=>(
             <div className="face face1">
                 <div className="content">
                     <img src={logo} />
-                    <h3>ART & CRAFT</h3>
+                    <h3>MY MOTIVATIONS</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                    <p>i've won and participated in several art comptetions in both inter and intra school level also i have learned sculpture for 5years.</p>
+                    <p>Don't find problems. Find a solution; Anybody can complain also Do things one at a time but correctly </p>
                 </div>
             </div>
         </div>
@@ -54,12 +54,12 @@ const home = ()=>(
             <div className="face face1">
                 <div className="content">
                 <img src={logo} />
-                    <h3>LEADERSHIP</h3>
+                    <h3>NONSCHOLASTIC</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                    <p>i've held several leadership positions in school and collage and was head of members for robotics club.</p>
+                    <p>I've been an active member of arts & sculpture clubs and won several awards representing my school. in collage i represented robotics club for my branch</p>
                 </div>
             </div>
         </div>

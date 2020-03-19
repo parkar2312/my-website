@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" );
 
 html{
@@ -72,6 +78,7 @@ body {
 }
 
 .container{
+    font-family: 'Amatic SC', cursive;
     flex: 1;
     width: 100%;
     position: relative;
@@ -169,12 +176,14 @@ body {
 
 
 .footer{
-    
+    font-family: 'Bellota', cursive;
+    color: #c2bdbd;
     background-color: #110c11;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
     padding-left: 5%;
+    
 }
 
 .leftfo ul{
@@ -274,6 +283,8 @@ body {
     }
     
     .friper{
+        margin-right: 0%;
+        padding-left: 0%;
         margin-left: 0%;
         padding-left: 0%;
         font-size: 1rem;
@@ -281,16 +292,21 @@ body {
     .face{
         margin-left: 0%;
         padding-left: 0%;
+        margin-right: 0%;
+        padding-left: 0%;
     }
     .combo{
         flex-direction: column;
     }
     .container{
-        margin-left: 4%;
+        margin-right: 0%;
+        padding-left: 0%;
+        margin-left: 5.5%;
         padding-left: 0%;
         flex-direction: column;
     }
     .footer{
+        font-size: .8rem;
         flex-direction: column;
         align-content: center;
     }
@@ -304,21 +320,24 @@ body {
         margin-left: 3%;
         text-align: center;
     }
+    .text{
+        text-align: center;
+    }
 }
 
 .skillz{
     text-align: center;
     color: #080808;
-    font-family: 'Times New Roman', Times, serif;
     justify-content: center;
     align-items: center;
     font-weight: bold;
 }
 .skillz h1{
+    font-family: 'Cinzel', serif;
     color: rgb(15, 1, 1);
     background: #03a9f4;
     text-align: center;
-    padding: 1% 2%;
+    padding: 2% 2%;
     font-size: 110%;
     font-weight: 100%;
     border-top-left-radius: 30%;
@@ -326,13 +345,21 @@ body {
     border-top-right-radius: 30%;
     border-bottom-right-radius: 30%;
 }
+.body1 ul li{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.body2 ul li{
+    font-family: 'Gloria Hallelujah', cursive;
+}
 .body1{
+    font-family: 'Noticia Text', serif;
     color: white ;
-    margin-left: 20%;
+    margin-left: 21%;
     width:50%;
     
 } 
 .body1 h2{
+    font-family: 'Noticia Text', serif;
     color: rgb(15, 1, 1);
     background: #03a9f4;
     align-content: center;
@@ -387,12 +414,14 @@ body {
 
 
 .body2{
+    font-family: 'Noticia Text', serif;
     color: white;
-    margin-left: 20%;
+    margin-left: 22%;
     width: 50%;
     
 } 
 .body2 h2{
+    font-family: 'Noticia Text', serif;
     color: rgb(15, 1, 1);
     background: #03a9f4;
     align-content: center;
@@ -446,12 +475,19 @@ body {
 }
 
 .me{   
+    font-family: 'Poiret One', cursive;
     color: #fff;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     align-content: center;
 }
+.me h3{
+    font-family: 'Poiret One', cursive;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 .intro {
+    font-family: 'Poiret One', cursive;
     color: rgb(15, 1, 1);
     background: #03a9f4;
     padding: 10px 20px;
@@ -494,6 +530,7 @@ text-align: center;
 table-layout: fixed;
 }
 .hobb{
+    font-family: 'Poiret One', cursive;
     color: rgb(15, 1, 1);
     background: #03a9f4;
     padding: 10px 20px;
@@ -501,14 +538,20 @@ table-layout: fixed;
     font-weight: 700;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    
 }
 @media screen and (max-width: 700px){
-    .h1{
-        font-size: 1rem;
+    .body1{
+        margin-left: 17%;
     }
-    .h3{
+    .body2{
+        margin-left: 17%;
+    }
+    .me{
         font-size: .8rem;
+    }
+    .intro .h3{
+        margin-left: 2%;
+        margin-right: 2%;
     }
     .edu{
         display: flex;
