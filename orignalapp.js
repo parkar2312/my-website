@@ -1,5 +1,6 @@
 import React,{component} from 'react';
 import './new.css';
+import Navbar from './navbar';
 import logo from './logo.svg';
 import {BrowserRouter as Router,Switch,Route,HashRouter}from 'react-router-dom';
 import skillz from './skillz';
