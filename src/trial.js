@@ -9,7 +9,9 @@ function Trial() {
    .<br/>
    .<br/>
 <h1> thank you for visitng</h1>
-            
+.<br/>
+   .<br/>
+   .<br/>      
 </div>
 
   );

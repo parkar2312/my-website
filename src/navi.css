@@ -1,15 +1,17 @@
 /*---------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 .nav-1{
-    height: 140px;
+    height: 50px;
     align-items: center;
-    font-size: 25px;
-    margin-left: 45%;
+    font-size: 22px;
+    margin-left: 18%;
     transition: 0.3s ease;
      border-top: 4px solid black transparent;
      border-bottom: 4px solid black transparent;
  }
- .link-1{
-     margin-right:20%;
+ .link-1{ 
+     margin-right:15%;
      font-size: larger;
  }
   .navbar-nav .nav.link a{
@@ -48,60 +50,62 @@
  
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link:hover {
-      transform: scale(1.7);
+      transform: scale(1.4);
       transition: .5s
- }
+ } 
  .ulli{
+     margin-top: 2%;
      display: flex;
+     
  }
  .ulli ul{
      display: flex;
  }
   .ulli ul li{
        list-style: none;
-       font-family: Arial, Helvetica, sans-serif;
-       font-size: 2.7em;
+       font-family: 'Merriweather', serif;
+       font-size: 1.6em;
        letter-spacing: 15px;
-       color: #484848;
+       color: #000000;
        text-shadow: none;
        animation: animate 1s infinite linear;
    }
    @keyframes animate
    {
        0%{
-           color: #484848;
+           color: #000000;
            text-shadow:none;
        }
        18%{
-           color: #484848;
+           color: #000000;
            text-shadow:none;
        }
        20%{
-         color: #fff900;
-         text-shadow:0 0 7px #fff900 , 0 0 20px #ff6c00;
+         color: #ffffff;
+         text-shadow:0 0 7px #ffffff , 0 0 20px #ff6c00;
       }
        30%{
-         color: #484848;
+         color: #000000;
          text-shadow:none;
       }
        35%{
-         color: #fff900;
-         text-shadow:0 0 7px #fff900 , 0 0 20px #ff6c00;
+         color: #ffffff;
+         text-shadow:0 0 7px #ffffff , 0 0 20px #ff6c00;
        }
        70%{
-         color: #484848;
+         color: #000000;
          text-shadow:none;
       }
       75%{
-         color: #fff900;
-         text-shadow:0 0 7px #fff900 , 0 0 20px #ff6c00;
+         color: #ffffff;
+         text-shadow:0 0 7px #ffffff , 0 0 20px #ff6c00;
        }
        90%{
-         color: #484848;
+         color: #000000;
          text-shadow:none;
       }
       100%{
-         color: #484848;
+         color: #000000;
          text-shadow:none;
       }
    }

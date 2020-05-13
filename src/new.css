@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" );
 
@@ -14,7 +15,7 @@ html{
 }
 body {
     margin: 0%;
-    font-size: 120%;
+    font-size: 100%;
     color: rgb(253, 44, 44);
     background: linear-gradient(to bottom, transparent,#000000);
     position: relative;
@@ -47,7 +48,7 @@ body {
     
 }
 .friper h1{
-  font-size: 220%;
+  font-size: 150%;
   margin-top: 28%;
     font-family: Acme;
     background-image: linear-gradient( 
@@ -56,16 +57,18 @@ body {
     #44c5db 50%,
     #1493c5 51%,
     #0d9fc4 59%,
-    #058dfd 100%);
+    #0585fd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     justify-content: center;
     align-items: center;
 }
 .imim img{
-  width: 130%;
+  width: 100%;
   height: 75vh;
-  margin-left: -75%;
+  margin: 0%;
+  padding: 0%;
+  margin-left: -40%;
   padding-left: 0%;
 }
 .loader{
@@ -77,10 +80,10 @@ body {
 }
 .loader:hover{
   background: #0a0a0a;
-  box-shadow: 0 0 5px #03e9f4,
-  0 0 25px #03e9f4,
-  0 0 50px #03e9f4
-  0 0 200px #03e9f4;
+  box-shadow: 0 0 5px #00aeff,
+  0 0 25px #00aeff,
+  0 0 50px #00aeff,
+  0 0 200px #00aeff;
   transform: 0.5s;
 }
 .loader span{
@@ -93,7 +96,7 @@ body {
   left: -100%;
   width: 100%;
   height: 40px;
-  background: linear-gradient(90deg, transparent,#03e9f4);
+  background: linear-gradient(90deg, transparent,#00aeff);
   animation: animate1 1s linear infinite;
   animation-delay: 0s;
 }
@@ -112,7 +115,7 @@ body {
   left: -100%;
   width: 100%;
   height: 40px;
-  background: linear-gradient(270deg, transparent,#03e9f4);
+  background: linear-gradient(270deg, transparent,#00aeff);
   animation: animate3 1s linear infinite;
   animation-delay: 0s;
 }
@@ -131,7 +134,7 @@ body {
   top: -100%;
   width: 40px;
   height: 100%;
-  background: linear-gradient(180deg, transparent,#03e9f4);
+  background: linear-gradient(180deg, transparent,#00aeff);
   animation: animate2 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -150,7 +153,7 @@ body {
   top: 100%;
   width: 40px;
   height: 100%;
-  background: linear-gradient(0deg, transparent,#03e9f4);
+  background: linear-gradient(0deg, transparent,#00aeff);
   animation: animate4 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -173,15 +176,19 @@ body {
     color: rgb(12, 0, 0);
 }
 .address{
+  font-family: 'Indie Flower', cursive;
   text-align: center;
   align-items: center;
   width: 100%;
   height: 30vh;
   display: flex;
-  background-color: rgba(8, 8, 8,0.9);
-  color: white;
+  background-color: rgb(0, 0, 0);
+  color: rgb(14, 144, 250);
   border-radius: 20px;
   margin-bottom: 0%;
+}
+.address h4{
+  color: #f0f1f1;
 }
 .address:hover{
   transform: scale(0.98);
@@ -209,12 +216,13 @@ body {
     color: rgb(12, 0, 0);
 }
 .container1 {
-  margin-top: 10%;
-  margin-bottom: 0;
-    width: 1000px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+  margin: 0%;
+  margin-left: -5%;
+  padding: 0%;
+  margin-top: 0%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
   }
   
   .container1 .card1 {
@@ -223,8 +231,8 @@ body {
   }
   
   .container1 .card1 .face {
-    width: 300px;
-    height: 201px;
+    width: 250px;
+    height: 200px;
     transition: 0.5s;
   }
   
@@ -264,7 +272,7 @@ body {
     padding: 0;
   }
   
-  .container .card .face.face2 .content1 a {
+  .container1 .card1 .face.face2 .content1 a {
     margin: 25px 80px 0;
     display: inline-block;
     text-decoration: none;
@@ -288,7 +296,7 @@ body {
     opacity: 1;
   }
   
-  .container .card .face.face1 .content img {
+  .container1 .card1 .face.face1 .content1 img {
     max-width: 100px;
   }
   
@@ -316,17 +324,17 @@ body {
   }
   
   .frifri ul li a .fa {
-    font-size: 40px;
+    font-size: 20px;
     color: #555;
-    line-height: 80px;
+    line-height: 50px;
     transition: 0.5s;
   }
   
   .frifri ul li a {
     position: relative;
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: #fff;
     text-align: center;
     transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
@@ -482,8 +490,8 @@ body {
   transition: 0.5s;
 }
 .split .screen .carda .imgbxa{
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;

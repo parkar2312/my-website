@@ -78,7 +78,6 @@ const home = ()=>(
               Hypertext Markup Language (HTML) is the standard markup language
               for documents designed to be displayed in a web browser.
             </p>
-            <a href="#">Read More</a>
           </div>
         </div>
       </div>
@@ -97,7 +96,6 @@ const home = ()=>(
               describing the presentation of a document written in a markup
               language like HTML
             </p>
-            <a href="#">Read More</a>
           </div>
         </div>
       </div>
@@ -115,7 +113,6 @@ const home = ()=>(
               JavaScript (JS), often abbreviated as JS, is a high- level,
               just-in-time compiled, object-oriented programming language.
             </p>
-            <a href="#">Read More</a>
           </div>
         </div>
       </div>
@@ -130,16 +127,16 @@ const home = ()=>(
       <div className="address">
        
        <div className="left">
-       <h1><img src={logo2}/> MY ADDRESS</h1>
-       <h3>S,5 Sampurnanand colony Sigra Varanasi ,
-       Uttar Pradesh<br/> 221010</h3>
+       <h2><img src={logo2}/> MY ADDRESS</h2>
+       <h4>S,5 Sampurnanand colony Sigra Varanasi ,
+       Uttar Pradesh<br/> 221010</h4>
        </div>
        <div className="right">
-       <h1><img src={logo1}/>PHONE NUMBERS</h1>
-       <h3>7007295236<br/>
+       <h2><img src={logo1}/>PHONE NUMBERS</h2>
+       <h4>7007295236<br/>
        9451966120<br/>
-           9807451027</h3>
-           </div>
+           9807451027</h4>
+           </div> 
            <div className="frifri">
        <ul>
  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

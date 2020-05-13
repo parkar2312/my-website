@@ -49,7 +49,7 @@ sqrnums(){
         console.log(this.state.added)
     return ( 
         <div className="app2">
-          <h1>--------------------APP #2--------------------</h1>
+          <h1>----------APP #2----------</h1>
         <input type="text" className="inp1" id="num1" placeholder="NUMBER A" value={this.state.num1} onChange={ (eve) => {this.setState({num1: eve.target.value})}}/>
         <input type="text" className="inp1" id="num2" placeholder="NUMBER B" value={this.state.num2} onChange={ (eve) => {this.setState({num2: eve.target.value})}}/><br/>
         <button className="addb" onClick={() =>this.addnums()}>+</button>

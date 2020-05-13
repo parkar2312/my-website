@@ -29,7 +29,7 @@ class Game extends React.Component {
     render() {
       return (
           <div>
-              <h1>--------------------APP #3--------------------</h1>
+              <h1>----------APP #3----------</h1>
         <p className="App-clock">
          <button className="button">{this.state.hour}<h1>HOURS</h1></button>
          <button className="button">{this.state.minutes}<h1>MINUTES</h1></button>

@@ -104,8 +104,8 @@ class Memo extends Component {
   render() {
     const { playerOne, playerTwo, winner } = this.state;
     return (
-      <><h1>--------------------APP #4--------------------</h1>
-        <h1 style={{ textAlign: "center" }}>--Rock--Paper--Scissors--</h1>
+      <><h1>----------APP #4----------</h1>
+        <h4 style={{ textAlign: "center" }}>--Rock--Paper--Scissors--</h4>
         <div>
         -------------------------------------
           {/* <Player weapon={playerOne} /> */}<h2>Choose One</h2>

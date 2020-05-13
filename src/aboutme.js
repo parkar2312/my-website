@@ -20,20 +20,20 @@
                 <div className="imgbxa">
                     <img src={image}/>
                 </div>
-                <h2>About Me</h2>
+                <h3>About Me</h3>
                 <a href="#">read more</a>
                 <div className="contenta">
                 <div className="imgbxa">
                     <img src={image}/>
                 </div>
             
-                <h2>About Me</h2>
+                <h5>----About Me----</h5>
                 <div className="me">
       <h1 className="intro">----Introduction----</h1><br/>
-      <h3>Born and raised in Varanasi completed my schooling from Sunbeam School.<br/>
+      <h5>Born and raised in Varanasi completed my schooling from Sunbeam School.<br/>
       I've been an above average student all my school life and my college was completed <br/>
       from Aryavart institute of technology Lucknow from mechanical branch . I am a keen learner<br/>
-      & like to maintain balance between working hard and having fun. <br/> </h3>
+      & like to maintain balance between working hard and having fun. <br/> </h5>
       <h1 className="intro">----Education----</h1>
     <div className="edu">
         
@@ -83,14 +83,14 @@
                 <div className="imgbxa">
                     <img src={logo}/>
                 </div>
-                <h2>Skills</h2>
+                <h3>Skills</h3>
                 <a href="#">read more</a>
                 <div className="contenta">
                 <div className="imgbxa">
                     <img src={logo}/>
                 </div>
                 <div className="skillz">
-       <h1>----SKILLS----</h1>
+       <h4>----SKILLS----</h4>
          <div className="body1">
              <ul><h2>Basic Skills</h2>
              <li>javascript</li>

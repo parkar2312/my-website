@@ -6,7 +6,7 @@ import './navi.css';
 function Nav1() {
   return (
       <div >
-   <Navbar ml="auto" bg="dark" variant="dark" expand="lg" >
+   <Navbar ml="auto" bg="primary" variant="dark" expand="lg" >
   <Navbar.Brand href="#home">
     <div className="ulli">
 <ul className="ul1">
@@ -14,7 +14,7 @@ function Nav1() {
   <li>A</li>
   <li>R</li>
   <li>I</li>
-  <li>M</li>
+  <li>M</li> 
   <li>A</li>
   <li>L</li>
 </ul>
@@ -28,7 +28,7 @@ function Nav1() {
   <li>A</li>
   <li>K</li>
   <li>A</li>
-  <li>R</li>
+  <li>R</li> 
 </ul>
 </div>
   </Navbar.Brand>

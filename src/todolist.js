@@ -156,7 +156,7 @@ class Todoli extends Component {
   return (
     
       <div className="container-fluid">
-      <h1>--------------------APP #5--------------------</h1>
+      <h1>----------APP #5----------</h1>
       <div className="row">
       
       <div className="col-md-4"></div> 

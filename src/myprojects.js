@@ -9,7 +9,7 @@ import Board from './trial.js';
 import "./projects.css"
 
 
-class Pro extends Component {
+class Pro extends Component { 
   render() {
     return ( 
       <div className="pipipopo">
