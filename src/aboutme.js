@@ -31,8 +31,8 @@
                 <div className="me">
       <h1 className="intro">----Introduction----</h1><br/>
       <h5>Born and raised in Varanasi completed my schooling from Sunbeam School.<br/>
-      I've been an above average student all my school life and my college was completed <br/>
-      from Aryavart institute of technology Lucknow from mechanical branch . I am a keen learner<br/>
+      I've been an above average student all my school life and i graduated in 2017 <br/>
+      with bachelor's degree in technology from U.P.T.U. I am a keen learner<br/>
       & like to maintain balance between working hard and having fun. <br/> </h5>
       <h1 className="intro">----Education----</h1>
     <div className="edu">
@@ -94,12 +94,12 @@
          <div className="body1">
              <ul><h2>Basic Skills</h2>
              <li>javascript</li>
-             <li>react js</li>
-             <li>angular</li>
-             <li>H.T.M.L</li>
-             <li>css</li>
+             <li>React js</li>
+             <li>Angular js</li>
+             <li>Express js</li>
+             <li>Node js</li>
+             <li>H.T.M.L / css</li>
              <li>c++</li>
-             <li>c</li>
              </ul>
          </div>
          
